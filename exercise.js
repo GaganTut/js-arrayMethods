@@ -72,6 +72,8 @@ console.log(testMenu);
 
 var westSide = ["Dre", "2Pac", "Snoop"];
 var eastSide = ["Biggie", "Diddy", "Craig Mack"];
+var oneLove = westSide.concat(eastSide);
+console.log(oneLove);
 
 
 
@@ -80,7 +82,8 @@ var eastSide = ["Biggie", "Diddy", "Craig Mack"];
 /*8. Help Nike sell more overpriced sneakers by changing their slogan from an array into a string. Convert the shoe array and assign it to a variable named `shoeString`. Console.log this new variable.*/
 
 var shoe = ["just", "do", "it"];
-
+var shoeString = shoe.join();
+console.log(shoeString);
 
 
 /*The array.slice() extracts a section of an array and returns a new array.
