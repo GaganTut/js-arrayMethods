@@ -12,7 +12,7 @@
 
 /*1. Mr. Bonner (aka the Red Rocket, the Red Mamba) doesn't belong in this class of Hall Of Famers. Remove this imposter immediately and assign it to a new variable named `notHof` Console.log this new variable as well as the original list.*/ 
 
-var hof = ["Jordan", "Bird", "Kobe", "Duncan", "Iverson", "Bonner"];
+var hof = ["Jordan", "Bird", "Kobe", "Duncan", "Magic", "LeBron", "Shaq", "Iverson", "Bonner"];
 var notHOF = hof.pop();
 console.log(notHOF);
 
